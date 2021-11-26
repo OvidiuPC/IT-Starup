@@ -888,6 +888,13 @@ body {
   margin-right: 15px;
 }
 
+@media (min-width: 280px) and (max-width: 770px) {
+  .features-circle {
+    width: 25px;
+    height: 20px;
+  }
+}
+
 .title-info {
   margin-left: 10px;
 }
