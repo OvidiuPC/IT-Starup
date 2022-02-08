@@ -1181,7 +1181,7 @@ body {
   margin: 0 auto;
   max-width: 1300px;
   height: 100%;
-  background: url(/img/map-3f6e1ddb342185a26c476daa59c3a805.png);
+  background-image: url(../img/map-3f6e1ddb342185a26c476daa59c3a805.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1992,6 +1992,12 @@ body {
   }
 }
 
+@media (min-width: 280px) and (max-width: 998px) {
+  .first-img, .second-img {
+    width: 3rem;
+  }
+}
+
 .first-img {
   position: absolute;
   left: 0;
@@ -2299,7 +2305,7 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
   height: 100%;
-  background: url(/img/map-3f6e1ddb342185a26c476daa59c3a805.png);
+  background-image: url(../img/map-3f6e1ddb342185a26c476daa59c3a805.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

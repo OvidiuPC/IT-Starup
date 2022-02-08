@@ -766,7 +766,7 @@ body{
     margin: 0 auto;
     max-width: 1300px;
     height: 100%;
-    background:url(/img/map-3f6e1ddb342185a26c476daa59c3a805.png);
+    background-image:url(../img/map-3f6e1ddb342185a26c476daa59c3a805.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1335,6 +1335,7 @@ body{
     box-sizing: border-box;
      @media (min-width:280px) and (max-width:998px){
          height: auto;
+       
      }
     
 }
@@ -1345,6 +1346,11 @@ body{
       @media (min-width:280px) and (max-width:998px){
         height: auto;
         margin: 1rem;
+    }
+}
+.first-img,.second-img{
+       @media (min-width:280px) and (max-width:998px){
+        width:3rem;
     }
 }
 .first-img{
@@ -1565,7 +1571,7 @@ footer{
     max-width: 1300px;
     margin: 0 auto;
     height: 100%;
-    background: url(/img/map-3f6e1ddb342185a26c476daa59c3a805.png);
+    background-image: url(../img/map-3f6e1ddb342185a26c476daa59c3a805.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
